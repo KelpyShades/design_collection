@@ -1,6 +1,6 @@
 # my_designs
 
-A new Flutter project.
+Collection of designs.
 
 ## Getting Started
 
