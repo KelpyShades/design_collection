@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:my_designs/components/home/home.dart';
+import 'package:my_designs/core/routes.dart';
 // import 'package:go_router/go_router.dart';
 
 void main() {
@@ -12,9 +12,10 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp.router(
       debugShowCheckedModeBanner: false,
-      home: Home(),
+      routerConfig: myroutes,
+      theme: ThemeData.dark(),
     );
   }
 }
